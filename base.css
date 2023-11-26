@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border-collapse: collapse;
+    font-family: 'Quicksand', sans-serif;
+    border-collapse: collapse;
+    transition: 0.1s all ease-in-out;
+}
+
+/* Flex container styles. */
+.flex {
+    display: flex;
+}
+.flex.row {
+    flex-flow: row wrap;
+}
+.flex.column {
+    flex-flow: column;
+}
+/* Justify content. */
+.flex.justify-center {
+    justify-content: center;
+}
+.flex.justify-sp-bt {
+    justify-content: space-between;
+}
+.flex.justify-sp-ard {
+    justify-content: space-around;
+}
+.flex.justify-end {
+    justify-content: flex-end;
+}
+/* Align items. */
+.flex.align-center {
+    align-items: center;
+}
+
+/* Grid Styles */
+.grid {
+    display: grid;
+}
+
+/* Center Horizontally. */
+.center-horizontal {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Text styles. */
+.text-center {
+    text-align: center;
+}
+
+.accent-text {
+    background: -webkit-linear-gradient(var(--text-gradient-light), var(--text-gradient-dark));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 250;
+}
+
+/* Other Styles */
+.cursor-pointer {
+    cursor: pointer;
+}

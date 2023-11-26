@@ -1,0 +1,195 @@
+.topbar {
+    background-color: color-mix(in srgb, rgb(113, 116, 211) 50%, rgb(167, 120, 246) 50%); 
+    opacity: 0.8;
+}
+.text {
+    color: white;
+}
+
+.ait {
+    display: inline-block;
+    margin-left: 300px;
+    cursor: pointer;
+ 
+}
+.ait {
+    padding-bottom: 20px;
+    color: white;
+    vertical-align: middle;
+}
+.ait:hover {
+   opacity: 0.6;
+}
+.ait:active {
+    opacity: 0.4;
+    
+}
+
+
+
+.img1 {
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 70px;
+    width: 70px;
+}
+
+.img2 {
+    padding-top: 10px;
+    padding-left: 15px;
+    height: 160px;
+    width: 180px;
+    margin-left: 530px;
+}
+.clubhub {
+    color: white;
+    background-color: black;
+    height: 65px;
+    width: 195px;
+    border: none;
+    border-radius: 45px;
+    display: block;
+    margin-left: 5px;
+    margin-left: 530px;
+    font-size: larger;
+
+}
+.aboutclubs {
+    border: none;
+    color: white;
+    background-color: rgb(102, 116, 204);
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+ 
+ 
+ margin: 10px;
+ cursor: pointer;
+ margin-left: 13px;
+}
+.aboutclubs:hover {
+  opacity: 0.6;
+}
+.latest {
+    border: none;
+    color: white;
+    background-color: rgb(102, 116, 204);
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    
+    
+    cursor: pointer;
+    margin: 10px;
+   }
+   .latest:hover {
+    opacity: 0.6;
+   }
+.events {
+    border: none;
+    color: white;
+    background-color: rgb(102, 116, 204);
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    
+    
+    cursor: pointer;
+    margin: 10px;
+   }
+   .events:hover {
+    opacity: 0.6;
+   }
+   .results {
+    border: none;
+    color: white;
+    background-color: rgb(102, 116, 204);
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    
+    cursor: pointer;
+    margin: 10px;
+   }
+
+.results:hover {
+ opacity: 0.6;
+}
+
+.signup {
+    border: none;
+    color: white;
+    background-color: rgb(102, 116, 204);
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 580px;
+
+}
+
+.signup:hover {
+ opacity: 0.6;
+}
+.logintext {
+    color: white;
+}
+.signuptext{
+    color: white;
+}
+
+.midbar {
+    background: url(/images/logoback.jpg);
+    height: 300px;
+    min-zoom: 34px;
+    background-size: cover;
+    
+
+    
+    
+    
+}
+.handle{
+
+    position: relative;
+    top: 2px;
+    left: 35px;
+    column-span: all;
+    
+    
+    background: #fff;
+    
+    cursor: pointer;
+    background-color: #f6f5fb;
+   
+  }
+  .handle {
+    position: relative;
+    margin-top: 50px;
+  }
+  .aitclubs {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 70px;
+    width: 180px;
+    vertical-align: top;
+    font-size: larger;
+  }
+  .aitclubstext {
+    margin-top: 10px;
+    margin-left: 500px;
+  }
+  .footer {
+    background-color: rgb(102, 116, 204);
+    color: white;
+    height: 150px;
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+   .email:hover {
+    color: blue;
+
+   }
